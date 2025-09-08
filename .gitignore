@@ -1,0 +1,296 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Frontend specific (Vue.js)
+frontend/dist/
+frontend/dist-ssr/
+frontend/node_modules/
+frontend/.vite/
+frontend/.nuxt/
+frontend/.next/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/coverage/
+
+# Backend specific (Go)
+backend/bin/
+backend/pkg/
+backend/vendor/
+backend/*.exe
+backend/*.exe~
+backend/*.dll
+backend/*.so
+backend/*.dylib
+backend/*.test
+backend/*.out
+backend/go.work
+backend/.env
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# Go module cache
+go.sum
+
+# Air (Go live reload)
+tmp/
+.air.toml
+
+# Test coverage
+*.cover
+coverage.txt
+coverage.html
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Package files
+*.deb
+*.rpm
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Configuration files (exclude sensitive configs)
+config/local.yml
+config/production.yml
+config/staging.yml
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Local development
+.local/
+local/
+
+# Cache directories
+.cache/
+.npm/
+.yarn/
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# Stylelint cache
+.stylelintcache
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Monitoring and profiling
+*.prof
+*.heap
+*.cpuprofile
+
+# API keys and secrets
+secrets/
+*.secret
+api-keys.json
+
+# Development tools
+.devcontainer/
+.gitpod.yml
+
+# Package manager lock files (include these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# But exclude local overrides
+package-lock.json.local
+yarn.lock.local
