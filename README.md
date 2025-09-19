@@ -29,6 +29,8 @@ news-digest/
 
 Currently running on mock data. Backend integration ready - just uncomment API calls in `frontend/src/services/api.ts` when backend is available.
 
+**Note:** Backend APIs are currently under development. Frontend uses mock data and simulated authentication.
+
 ## Demo
 
 - Username: `demo` / Password: `demo123`
